@@ -28,7 +28,8 @@
 
 - Go
 - TypeScript
-- Puthon
+- Dart
+- Python
 - PHP
 
 
