@@ -1,4 +1,4 @@
-import { getQiitaRequest } from "@/service/request";
+import { getQiitaRequest } from "./service/request";
 
 const main = async () => {
   console.log("Hello World");

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { QiitaUserItems } from "@/model/qiita";
+import { QiitaUserItems } from "../model/qiita";
 
 export const getQiitaRequest = async (
   url: string
