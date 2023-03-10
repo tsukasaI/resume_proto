@@ -1,9 +1,9 @@
-export type Tag = {
+type Tag = {
   name: string;
   versions: string[];
 };
 
-export type User = {
+type User = {
   description: string;
   facebook_id: string;
   followees_count: number;

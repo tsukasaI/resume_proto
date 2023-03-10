@@ -1,5 +1,11 @@
-const main = () => {
-    console.log("Hello World")
-}
+import { getQiitaRequest } from "@/service/request";
 
-main()
+const main = async () => {
+  console.log("Hello World");
+  const res = await getQiitaRequest(
+    "https://qiita.com/api/v2/users/tsukasaI/items"
+  );
+  console.log(res);
+};
+
+main();
